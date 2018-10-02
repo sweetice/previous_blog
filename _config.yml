@@ -5,9 +5,9 @@ header-img: img/post-bg-desk.jpg
 email: anaconda_fire@outlook.com
 description: "Every failure is leading towards success."
 keyword: "Artificial Intelligence, Reinforcement Learning, Machine Learning"
-url: "http://www.ia.cas.cn/"          # your host, for absolute URL
+url: "http://sweetice.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: ""https://github.com/sweetice/sweetice.github.io.git" # you code repository
+github_repo: "https://github.com/sweetice/sweetice.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
