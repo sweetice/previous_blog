@@ -1,4 +1,4 @@
-bg-pytorch.jpg---
+---
 layout:     post
 title:      Pytorch: IndexError: too many indices for array
 subtitle:   一个由pytorch版本兼容性导致的问题
