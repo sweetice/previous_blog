@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Pytorch IndexError
-subtitle:   IndexError: too many indices for array
+subtitle:   索引错误，太多索引
 date:       2018-10-04
 author:     Johhny
 header-img: img/bg-pytorch.jpgg
