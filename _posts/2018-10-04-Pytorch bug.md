@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Pytorch: IndexError: too many indices for array
+title:      Pytorch bug
 subtitle:   一个由pytorch版本兼容性导致的问题
 date:       2018-10-04
 author:     Johnny
