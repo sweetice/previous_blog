@@ -4,7 +4,7 @@ title:      Pytorch IndexError
 subtitle:   索引错误，太多索引
 date:       2018-10-04
 author:     Johhny
-header-img: img/bg-pytorch.jpgg
+header-img: img/bg-pytorch.jpg
 catalog: true
 tags:
     - Pytorch
