@@ -1,15 +1,16 @@
 ---
 layout:     post
 title:      Pytorch的IndexError问题
-subtitle:   Pytorch: IndexError: too many indices for array
+subtitle:   Pytorch: IndexError
 date:       2018-10-04
 author:     Johnny
 header-img: img/bg-pytorch.jpg
 catalog: true
 tags:
     - Pytorch
-    - debug
+    - Debug
 ---
+
 
 # Pytorch 4.0 报错 IndexError: too many indices for array
 
