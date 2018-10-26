@@ -58,7 +58,7 @@ Episodic Curiosity （EC） model 的输入是observation ，输出是bonus b。
 
 接下来我详细的介绍各个部分的细节。
 
-××Embedding and Comparator networks××
+**Embedding and Comparator networks** 
 
 
 
