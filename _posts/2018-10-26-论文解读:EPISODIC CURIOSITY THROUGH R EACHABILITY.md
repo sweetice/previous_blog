@@ -50,7 +50,7 @@ EC由两个部分组成，一个是embedding network，另一个是 comparator n
 ### 2.1 Episodic Curiosity Module
 
 Episodic Curiosity （EC） model 的输入是observation ，输出是bonus b。模型由参数化和非参数化模型构成。这里有两个参数化的部分：一个嵌入网络（embedding network）和一个比较器网络（comparator network）。
-![网络结构](![121](https://s1.ax1x.com/2018/10/26/iyhRCn.png))
+![网络结构](https://s1.ax1x.com/2018/10/26/iyhRCn.png)
 
 另外两个非参数化的组成分别是episodic memory buffer M 和 reward bonus estimation function B。
 完整的EC 模型下。
