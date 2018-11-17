@@ -63,5 +63,13 @@ DQN有两个非常有意思的点。一个是两个网络的设计，另是一�
 
 对于sparse reward task，capacity大小很可能直接决定网络是否收敛！
 
+## AC方法设计的一般问题
+
+AC框架是非常重要的强化学习方法，现代的算法几乎都是基于AC框架的。由于AC框架既有Policy Gradient，又有Q-learning，AC框架调参难度相比起单一的PG/Q 方法更加难以调整。经验在这里变得非常重要。
+
+对于AC框架，我们一般先会去调Q-learning部分，不管是A2C，A3C还是PPO，Q-learning部分（也就是critic）收敛之后，再去调整actor部分，这样子调参会好得多。
+
 
 ****
+
+**未完待续...**
