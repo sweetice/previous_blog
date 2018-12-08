@@ -12,7 +12,7 @@ tags:
 
 # How to access google, Wikipedia .etc in mainland China
 
-If you are in ipv6 environments, you can't access google, facebook, youtube directly. You should change your hosts file.
+You are in ipv6 environments, bug you can't access google, facebook, youtube directly. You should change your hosts file.
 
 In this article, we argue that how to access google, facebook, youtube with ipv6.
 
