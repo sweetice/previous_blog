@@ -20,6 +20,8 @@ In this article, we argue that how to access google, facebook, youtube with ipv6
 
 Click [here](https://github.com/lennylxx/ipv6-hosts) to visit github pages. If you can't, you can paste *https://github.com/lennylxx/ipv6-hosts* to your browser.
 
+*Update: https://github.com/lennylxx/ipv6-hosts/blob/master/hosts*
+
 And then should download the file that I marked with a red square.
 
 ![hosts that you should download](http://upload-images.jianshu.io/upload_images/7814231-1a7e960f4f494980.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
