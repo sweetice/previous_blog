@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      PPO Debug Experience 
-subtitle:   debug PPO 时遇到的坑
+subtitle:   Problems that I debug PPO
 date:       2018-12-20
 author:     Johnny
 header-img: img/post-bg-reinforcement-learning.png
