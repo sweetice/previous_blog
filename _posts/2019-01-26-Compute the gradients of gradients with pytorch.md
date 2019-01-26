@@ -95,4 +95,6 @@ If you are interested in WGAN-gp, you can click here[https://github.com/sweetice
 ```
 
 If you are interested in reinforcement learning and general aritificial intelligence, you can click here[https://github.com/sweetice/Deep-reinforcement-learning-with-pytorch]. :)
+
+
 Enjoy yourself :)
