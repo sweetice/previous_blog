@@ -70,7 +70,7 @@ def compute_gradient_penalty(D, real_samples, fake_samples):
     return gradient_penalty
 ```
 
-If you are interested in WGAN-gp, you can click here[https://github.com/sweetice/GAN-course-note/blob/master/GAN-code/wgan-gp.py] to read the core code. 
+If you are interested in WGAN-gp, you can click [here](https://github.com/sweetice/GAN-course-note/blob/master/GAN-code/wgan-gp.py) to read the core code. 
 
 
 ## Example 2: In any network :
@@ -94,7 +94,7 @@ If you are interested in WGAN-gp, you can click here[https://github.com/sweetice
         return gradient_penalty
 ```
 
-If you are interested in reinforcement learning and general aritificial intelligence, you can click here[https://github.com/sweetice/Deep-reinforcement-learning-with-pytorch]. :)
+If you are interested in reinforcement learning and general aritificial intelligence, you can click [here](https://github.com/sweetice/Deep-reinforcement-learning-with-pytorch). :)
 
 
 Enjoy yourself :)
