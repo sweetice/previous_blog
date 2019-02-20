@@ -1,1 +1,1 @@
-This folder store figures from paper.
+This folder store imgs of my post.
