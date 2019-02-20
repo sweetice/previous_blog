@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      How to install cuda on ubunutu1804
+title:      How to install cuda on ubuntu 1804
 subtitle:   Enjoy Deep learning
 date:       2019-02-20
 author:     Johnny
@@ -75,7 +75,7 @@ $ lsmod | grep nouveau
 - 2) 点击Additional Drivers
 - 3) 选用 Using NVIDIA driver metapackage from nvidia-diver-390(proprietary, tested)
 
-[Software and Updates](https://github.com/sweetice/sweetice.github.io/blob/master/figures/software%20and%20updates.png)
+![Software and Updates](https://github.com/sweetice/sweetice.github.io/blob/master/figures/software%20and%20updates.png)
 
 
 
