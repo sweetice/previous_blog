@@ -71,9 +71,9 @@ $ lsmod | grep nouveau
 - 3.安装驱动
 
 此处建议使用ubuntu自带的software & updates安装驱动。
-- 1) 打开Software & Updates
-- 2) 点击Additional Drivers
-- 3) 选用 Using NVIDIA driver metapackage from nvidia-diver-390(proprietary, tested)
+- 1 打开Software & Updates
+- 2 点击Additional Drivers
+- 3 选用 Using NVIDIA driver metapackage from nvidia-diver-390(proprietary, tested)
 
 ![Software and Updates](https://github.com/sweetice/sweetice.github.io/blob/master/figures/software%20and%20updates.png)
 
@@ -92,9 +92,13 @@ $ sudo bash ./NVIDIA-Linux-x86_64-410.93.run
 安装完成之后，切换回图形界面。
 接下来。
 
-- 4. 安装cuda
+- 4.安装cuda
 
-上[官网](https://developer.nvidia.com/cuda-90-download-archive)(https://developer.nvidia.com/cuda-90-download-archive)下载cuda9.0的包。
+上[官网](https://developer.nvidia.com/cuda-90-download-archive)下载cuda9.0的包。
+
+```
+https://developer.nvidia.com/cuda-90-download-archive
+```
 
 之后，关闭掉图形界面（方法同上），进入下载目录，执行如下命令：  
 ```
