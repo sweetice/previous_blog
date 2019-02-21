@@ -115,8 +115,8 @@ error: failed to push some refs to 'https://github.com/sweetice/Deep-reinforceme
 $ git add .
 ```
 出现提示信息
-```
-warning: adding embedded git repository: Deep-reinforcement-learning-with-pytorch
+
+>warning: adding embedded git repository: Deep-reinforcement-learning-with-pytorch
 hint: You've added another git repository inside your current repository.
 hint: Clones of the outer repository will not contain the contents of
 hint: the embedded repository and will not know how to obtain it.
@@ -131,7 +131,7 @@ hint: 	git rm --cached Deep-reinforcement-learning-with-pytorch
 hint: 
 hint: See "git help submodule" for more information.
 
-```
+
 -  强制删除嵌套
 
 ```
@@ -141,7 +141,7 @@ $ git rm --cached Deep-reinforcement-learning-with-pytorch/ -f
 
 问题解决。
 
-出现问题的原因还有：
+原因还有：
 
 -1. 本地git仓库目录下为空
 
