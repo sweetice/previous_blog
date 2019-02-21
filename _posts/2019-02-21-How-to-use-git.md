@@ -143,18 +143,19 @@ $ git rm --cached Deep-reinforcement-learning-with-pytorch/ -f
 
 原因还有：
 
--1. 本地git仓库目录下为空
+- 本地git仓库目录下为空
 
--2. 本地仓库add后未commit
+- 本地仓库add后未commit
 
--3. git init错误
+- git init错误
 
 对应的解决方案：
--1. 打开隐藏文件和文件夹显示
 
--2. 到本地仓库目录下查看是否有.git文件夹——无 则git init
+- 打开隐藏文件和文件夹显示
 
--3. 看.git文件夹下是否有之前提交的文件——若无 则重新 git commit (如果之前git add过的话 没有就要重新 add commit)
+- 到本地仓库目录下查看是否有.git文件夹——无 则git init
+
+- 看.git文件夹下是否有之前提交的文件——若无 则重新 git commit (如果之前git add过的话 没有就要重新 add commit)
 
 ### push之后，web端代码没有发生改变。
 
