@@ -48,6 +48,7 @@ $ git config --global user.email "269401927@qq.com"
 ```
 git init
 ```
+
 1. 首先，将你的repo复制到本地。
 ![Fig.1 Clone repo](https://github.com/sweetice/sweetice.github.io/blob/master/figures/clone_repo.png)
 
@@ -58,6 +59,7 @@ $ git clone  https://github.com/sweetice/Deep-reinforcement-learning-with-pytorc
 静静地等着复制完成就好。
 
 这里有一个查看本地repo来源的小技巧
+
 ```
 $ git remote -v
 ```
@@ -110,10 +112,13 @@ error: failed to push some refs to 'https://github.com/sweetice/Deep-reinforceme
 由于之前错误的嵌套了web端的repo，造成了问题。
 
 **解决方案**
+
 - 提交一下
+
 ```
 $ git add .
 ```
+
 出现提示信息
 
 >warning: adding embedded git repository: Deep-reinforcement-learning-with-pytorch
@@ -136,7 +141,6 @@ hint: See "git help submodule" for more information.
 
 ```
 $ git rm --cached Deep-reinforcement-learning-with-pytorch/ -f
-
 ```
 
 问题解决。
