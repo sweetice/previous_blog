@@ -188,3 +188,19 @@ $ git commit -m "add some new algorithms"
 ```
 $ git push -u origin master
 ```
+
+### 每次push都需要提交用户名和密码
+
+**问题描述**
+
+每次push都需要提交用户名和密码。  
+这是由于本地没有设置存储密码而引起。  
+
+**解决方案**
+
+```
+git config --global credential.helper store
+```
+
+
+``` 
