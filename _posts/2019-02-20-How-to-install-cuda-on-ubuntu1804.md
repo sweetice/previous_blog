@@ -134,8 +134,28 @@ export PATH="$PATH:/usr/local/cuda-9.0/bin"
 
 - 5.安装cudNN
 
-使用torch可以不用安装cudNN,此处略过。
+1. 去[官网](https://developer.nvidia.com/rdp/cudnn-download)下载cudnn（注意这里我们下载.tgz版本）
+2. 下载好之后解压到本地
 
+```
+$sudo tar -xzvf cudnn-9.0-linux-x64-v7.5.0.56.tgz 
+```
+
+3. 将文件拷贝至cuda的目录中
+```
+sudo cp cuda/include/cudnn.h /usr/local/cuda/include
+sudo cp cuda/lib64/libcudnn* /usr/local/cuda/lib64
+```
+
+4. 配置相应的环境变量
+
+```
+gedit .bashrc
+```
+把这个加在最后一行：
+```
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-9.0/lib64/
+```
 - 6.测试
 
 使用如下代码测试
@@ -144,6 +164,19 @@ export PATH="$PATH:/usr/local/cuda-9.0/bin"
 import torch
 torch.cuda.is_available()
 ```
+
 如果结果显示True，那么就可以使用了。
 
+```
+import tensorflow as tf
+a = tf.constant([1.0,2.0,3.0],shape=[3],name='a')
+b = tf.constant([1.0,2.0,3.0],shape=[3],name='b')
+with tf.device('/gpu:1'):
+    c = a + b
+sess = tf.Session()
+sess.run(tf.global_variables_initializer())
+print(sess.run(c))
+```
 ![cuda可以用了](https://github.com/sweetice/sweetice.github.io/blob/master/figures/cuda_is_available.png)
+
+
