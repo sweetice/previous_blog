@@ -204,3 +204,20 @@ git config --global credential.helper store
 
 
 ``` 
+
+### commit了大文件，git服务器拒绝push
+
+**问题描述**
+
+由于commit了大文件，git 服务器拒绝上传超过100mb的文件，由于多次commit，导致文件已经被包含进了git库中，无法无法再进行push了，陷入两难境地。
+
+
+**解决方案**
+
+使用服务器git库覆盖本地git。
+
+```
+$ git fetch --all
+$ git reset --hard origin/master 
+$ git pull
+```
