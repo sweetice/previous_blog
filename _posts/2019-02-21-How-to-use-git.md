@@ -203,8 +203,6 @@ git config --global credential.helper store
 ```
 
 
-``` 
-
 ### commit了大文件，git服务器拒绝push
 
 **问题描述**
