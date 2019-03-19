@@ -16,7 +16,7 @@ tags:
 
 首先要说明的是，直接使用pip　安装并不可取．
 
-## １．安装openmpi
+## 2. 安装openmpi
 
 - 1.1 下载
 URL: http://www.open-mpi.org/software/ompi/v1.10/
@@ -81,7 +81,7 @@ Hello, world, I am 3 of 4, (Open MPI v1.10.2, package: Open MPI mirror@agent Dis
 Hello, world, I am 1 of 4, (Open MPI v1.10.2, package: Open MPI mirror@agent Distribution, ident: 1.10.2, repo rev: v1.10.1-145-g799148f, Jan 21, 2016, 123)
 
 ```
-这就说明openmpi安装好了.
+这就说明openmpi安装好了.  
 
 ## 2. 安装mpi4py
 
@@ -92,11 +92,13 @@ source ~/.bashrc
 ```
 
 - 2.2 安装mpi4py
+
 ```
 pip install mpi4py
 ```
 
 出现一下信息:
+
 ```
 Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
 Collecting mpi4py
