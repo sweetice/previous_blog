@@ -16,7 +16,7 @@ tags:
 
 首先要说明的是，直接使用pip　安装并不可取．
 
-## 2. 安装openmpi
+## 1. 安装openmpi
 
 - 1.1 下载
 URL: http://www.open-mpi.org/software/ompi/v1.10/
