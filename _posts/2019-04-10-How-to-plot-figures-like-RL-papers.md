@@ -16,7 +16,7 @@ tags:
 ![论文里面好看的图](https://s2.ax1x.com/2019/04/10/ATk7lt.png)  
 
 paper里面含有精美的图能够增加文章中的概率, 那么强化学习论文里面那种精美的图到底是怎么画出来的呢?  
-答案是:使用seaborn绘制. 当然,有人也提出来,可以使用origin绘制,但考虑到数据从python体系内转换到origin格式. 需要借助一些中介工具(比如excel), 这样子会造成一定的困难.因此我们还是考虑使用seaborn来绘制.
+答案是:使用seaborn绘制. 有人也提出来,可以使用origin绘制,但考虑到数据从python体系内转换到origin格式. 需要借助一些中介工具(比如excel), 这样子会增加难度.因此我们还是考虑使用seaborn来绘制.
 
 seaborn风格的图片如下:
 
@@ -57,7 +57,7 @@ plt.show()
 ![效果](https://s2.ax1x.com/2019/04/10/ATA6hj.png)
 
 
-api相信信息请点[此处](https://seaborn.pydata.org/generated/seaborn.lineplot.html#seaborn.lineplot)
+api详细信息请点[此处](https://seaborn.pydata.org/generated/seaborn.lineplot.html#seaborn.lineplot)
 
 ## API细节
 
@@ -75,14 +75,14 @@ err_style='band', err_kws=None, legend='brief', ax=None, **kwargs)¶
 但是我们需要用到的参数就是那么几个
 
 - x  
-输入的横坐标,注意横坐标的取值不一定是唯一的.
+输入的横坐标,注意横坐标的取值不一定是唯一的.在RL中,我们输入的横坐标一般是step.
 - y 
-纵坐标
+纵坐标, 我们的纵坐标一般是平均回报.
 - hue  
-按照什么标准来分类画图.
+按照什么标准来分类画图.一般以算法来区分.
 -  ci   
-置信区间的大小, 设置为"sd"时候,就会画出标准差范围.
+置信区间的大小, 设置为"sd"时候,就会画出标准差范围.一般取95.
 -error_style  
-误差带的类型,可在band和bars之间选择.
+误差带的类型,可在band和bars之间选择.一般选择band.
 
 
