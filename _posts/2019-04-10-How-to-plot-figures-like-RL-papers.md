@@ -59,4 +59,30 @@ plt.show()
 
 api相信信息请点[此处](https://seaborn.pydata.org/generated/seaborn.lineplot.html#seaborn.lineplot)
 
+## API细节
+
+lineplot带有大量的参数
+
+```angular2html
+seaborn.lineplot(x=None, y=None, hue=None, size=None, 
+style=None, data=None, palette=None, hue_order=None, 
+hue_norm=None, sizes=None, size_order=None, size_norm=None, 
+dashes=True, markers=None, style_order=None, units=None, 
+estimator='mean', ci=95, n_boot=1000, sort=True, 
+err_style='band', err_kws=None, legend='brief', ax=None, **kwargs)¶
+```
+
+但是我们需要用到的参数就是那么几个
+
+- x  
+输入的横坐标,注意横坐标的取值不一定是唯一的.
+- y 
+纵坐标
+- hue  
+按照什么标准来分类画图.
+-  ci   
+置信区间的大小, 设置为"sd"时候,就会画出标准差范围.
+-error_style  
+误差带的类型,可在band和bars之间选择.
+
 
