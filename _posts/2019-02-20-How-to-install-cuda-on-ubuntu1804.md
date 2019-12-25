@@ -75,6 +75,17 @@ $ lsmod | grep nouveau
 - 2 点击Additional Drivers
 - 3 选用 Using NVIDIA driver metapackage from nvidia-diver-390(proprietary, tested)
 
+或者考虑一下方式:
+
+```
+sudo add-apt-repository ppa:graphics-drivers/ppa      //添加ppa库到系统中
+sudo apt update         //  更新
+ 
+sudo ubuntu-drivers devices // 显示可以安装的nvidia驱动
+ 
+ 
+sudo apt install nvidia-xxx        //  xxx  代表你想安装的nVidia驱动的版本号
+```
 ![Software and Updates](https://github.com/sweetice/sweetice.github.io/blob/master/figures/software%20and%20updates.png)
 
 如果没有成功，那么就去[官网](https://www.nvidia.cn/Download/index.aspx?lang=cn)选择对应的版本安装。
