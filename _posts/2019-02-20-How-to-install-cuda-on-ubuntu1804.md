@@ -191,3 +191,14 @@ print(sess.run(c))
 ![cuda可以用了](https://github.com/sweetice/sweetice.github.io/blob/master/figures/cuda_is_available.png)
 
 
+## 一些你可能用到的命令
+
+查看占用apt进程的命令
+```
+ps aux | grep -i apt
+```
+
+杀死这种命令
+```
+kill -9 id
+```
