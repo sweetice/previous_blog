@@ -37,12 +37,23 @@ passwd user_name
 ```
 
 为该用户指定命令解释程序（通常为/bin/bash）
-···
+```
 usermod -s /bin/bash user_name
-···
+```
 
 删除账号
 ```
 userdel -r user_name
 ```
 -r 参数为删除该目录下所有的文件
+
+
+指定ssh端口映射:
+```
+ssh -L 6006:localhost:6006 username@ip
+```
+
+杀死占用某个端口的程序：
+```
+fuser 6006/tcp -k
+```
