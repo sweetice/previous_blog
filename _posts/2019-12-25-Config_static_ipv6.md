@@ -70,7 +70,7 @@ scp -r ~/.ssh/id_rsa.pub  mirror@170.18.40.99:~/
 ```
 
 - 写入
-- 
+```
 cat id_rsa.pub >> ~/.ssh/authorized_keys
 ```
 
