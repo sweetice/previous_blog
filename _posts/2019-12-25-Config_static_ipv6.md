@@ -47,13 +47,54 @@ userdel -r user_name
 ```
 -r 参数为删除该目录下所有的文件
 
+## SSH 相关服务
 
-指定ssh端口映射:
+### 指定ssh端口映射:
 ```
 ssh -L 6006:localhost:6006 username@ip
 ```
 
-杀死占用某个端口的程序：
+### 杀死占用某个端口的程序：
 ```
 fuser 6006/tcp -k
+```
+### 快捷ssh命令访问服务器
+- 生成ssh 公钥
+```
+ssh-keygen
+```
+
+- 上传到服务器
+```
+scp -r ~/.ssh/id_rsa.pub  mirror@170.18.40.99:~/
+```
+
+- 写入
+- 
+cat id_rsa.pub >> ~/.ssh/authorized_keys
+```
+
+- 在本地处理
+```
+vim ~/.ssh/config
+```
+```
+Host alians
+    HostName dev.example.com
+    Port 22
+    User fooey
+```
+
+- 修改文件权限
+```
+sudo chmod 600 .ssh/config 
+```
+
+![参考](https://nerderati.com/2011/03/17/simplify-your-life-with-an-ssh-config-file/)
+
+## 限定服务器python程序数量
+
+原理是替换掉python程序启动方式
+```
+alias python='run-one python'
 ```
