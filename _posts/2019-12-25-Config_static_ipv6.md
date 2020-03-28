@@ -90,7 +90,7 @@ Host alians
 sudo chmod 600 .ssh/config 
 ```
 
-![参考](https://nerderati.com/2011/03/17/simplify-your-life-with-an-ssh-config-file/)
+[参考](https://nerderati.com/2011/03/17/simplify-your-life-with-an-ssh-config-file/)
 
 ## 限定服务器python程序数量
 
